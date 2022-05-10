@@ -13,7 +13,7 @@ h1{
 }
 
 body{
-  font-family: HelveticaNeue;
+  font-family: HelveticaNeue, san;
   background-image: linear-gradient(0deg,
     #405DE6,#5851D8,#833AB4,#C13584,#E1306C,#FD1D1D,#F56040,#F77737,#FCAF45,#FFDC80,#FFFFFF);
 }
@@ -32,7 +32,6 @@ DIV_username{
   height: 60px;
   border-radius: 50%;
   margin: 10px;
-  /* object-fit: contain; */
 }
 .contentItem{
   background-color: ivory;
@@ -44,7 +43,6 @@ DIV_username{
 }
 #contentGrid {
   display: grid;
-  /* grid-template-columns: repeat(1,3fr); */
   grid-row-gap: 1vmax;
   padding: 2vmin;
   justify-items: center;
@@ -62,4 +60,8 @@ ul li {
   background-position: 0 0;
   background-size: 1rem 1rem;
   background-repeat: no-repeat;
+}
+
+.commentUsername{
+  font-weight: bold;
 }
